@@ -10,3 +10,5 @@ git clone https://github.com/ductam276/android_device_oneplus_sm8650-common.git 
 git clone https://github.com/ductam276/android_device_oneplus_audi.git -b lineage-23.2 device/oneplus/audi
 #Proprietary_Vendor
 git clone https://github.com/ductam276/proprietary_vendor_oneplus_audi.git -b lineage-23.2 vendor/oneplus/audi
+#Vendor_Common
+git clone https://github.com/ductam276/proprietary_vendor_oneplus_sm8650-common.git -b lineage-23.2 vendor/oneplus/sm8650-common
