@@ -20,4 +20,5 @@
     
     <!--Additional app-->
     <project name="proprietary_vendor_oneplus_ir"  path="vendor/oneplus/ir"  remote="dt" />
+    <project name="vendor_bcr"  path="vendor/bcr"  remote="dt" />
 </manifest>
