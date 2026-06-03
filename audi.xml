@@ -1,11 +1,11 @@
 <manifest>
     <!--Remotes-->
     <remote name="dt" fetch="https://github.com/ductam276" revision="lineage-23.2" />
-    <remote name="cr" fetch="https://github.com/ductam276" revision="alpha" />
+    <remote name="dif" fetch="https://github.com/ductam276"/>
     
     <!--Devices Trees-->
     <project name="android_device_oneplus_sm8650-common"   path="device/oneplus/sm8650-common" remote="dt" />
-    <project name="android_device_oneplus_audi"   path="device/oneplus/audi"   remote="cr" />
+    <project name="android_device_oneplus_audi"   path="device/oneplus/audi"   remote="dif" revision="alpha" />
 
     <!--Vendors Tree-->
     <project name="proprietary_vendor_oneplus_sm8650-common"  path="vendor/oneplus/sm8650-common"  remote="dt" />
@@ -20,6 +20,6 @@
     <project name="android_hardware_oplus"  path="hardware/oplus"  remote="dt" />
     
     <!--Additional app-->
-    <project name="proprietary_vendor_oneplus_ir"  path="vendor/oneplus/ir"  remote="dt" />
-    <project name="vendor_bcr"  path="vendor/bcr"  remote="dt" />
+    <project name="proprietary_vendor_oneplus_ir"  path="vendor/oneplus/ir"  remote="dif" revision="16" />
+    <project name="vendor_bcr"  path="vendor/bcr"  remote="dif" revision="main" />
 </manifest>
