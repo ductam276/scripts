@@ -17,4 +17,7 @@
 
     <!--Hardware dependencies-->
     <project name="android_hardware_oplus"  path="hardware/oplus"  remote="dt" />
+    
+    <!--Additional app-->
+    <project name="proprietary_vendor_oneplus_ir"  path="vendor/oneplus/ir"  remote="dt" />
 </manifest>
